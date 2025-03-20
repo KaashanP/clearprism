@@ -76,9 +76,6 @@ const CTA = () => {
                           )}
                         </Button>
                       </div>
-                      <p className="text-xs text-muted-foreground mt-3">
-                        Join 500+ enterprise leaders already transforming their decision processes.
-                      </p>
                     </form>
                   ) : (
                     <div className="animate-fade-in flex items-center justify-center space-x-3 py-5 px-8 rounded-xl max-w-md mx-auto bg-gradient-to-r from-green-50 to-emerald-50 border border-green-100 shadow-sm">
@@ -91,14 +88,6 @@ const CTA = () => {
                       </div>
                     </div>
                   )}
-                </div>
-
-                <div className="flex flex-wrap justify-center items-center gap-6 mt-16">
-                  <div className="trusted-logo">Enterprise Leaders Trust Us</div>
-                  <div className="trusted-logo">500+ Teams</div>
-                  <div className="trusted-logo">Award-Winning AI</div>
-                  <div className="trusted-logo">99.9% Uptime</div>
-                  <div className="trusted-logo">Enterprise Security</div>
                 </div>
               </div>
             </div>
