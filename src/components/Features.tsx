@@ -1,32 +1,32 @@
 
 import Card from "./Card";
-import { Sparkles, Rocket, Wand2, Gem, Zap } from "lucide-react";
+import { Brain, Prism, Puzzle, FlaskConical } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      title: "Intelligent Integration",
+      title: "Neural Integration",
       description:
         "Our AI listens to your enterprise's digital heartbeat, seamlessly unifying insights across all platforms into a single source of truth.",
-      icon: <Sparkles className="h-10 w-10 text-indigo-500" />,
+      icon: <Brain className="h-10 w-10 text-indigo-500" />,
     },
     {
-      title: "Strategic Clarity",
+      title: "Prismatic Clarity",
       description:
         "Transform information overload into crystal-clear priorities. Our AI cuts through noise to identify what truly moves your business forward.",
-      icon: <Gem className="h-10 w-10 text-blue-500" />,
+      icon: <Prism className="h-10 w-10 text-blue-500" />,
     },
     {
-      title: "Effortless Customization",
+      title: "Modular Customization",
       description:
         "Shape your prioritization framework to match your unique business DNA. Tailor criteria that align perfectly with your strategic vision.",
-      icon: <Wand2 className="h-10 w-10 text-purple-500" />,
+      icon: <Puzzle className="h-10 w-10 text-purple-500" />,
     },
     {
-      title: "Accelerated Execution",
+      title: "Catalyzed Execution",
       description:
-        "Slash decision cycles from weeks to minutes. Drive alignment and focused action with instantly shareable, crystal-clear priorities.",
-      icon: <Rocket className="h-10 w-10 text-red-500" />,
+        "Slash decision cycles from weeks to hours. Drive alignment and focused action with instantly shareable, crystal-clear priorities.",
+      icon: <FlaskConical className="h-10 w-10 text-red-500" />,
     },
   ];
 
@@ -40,7 +40,7 @@ const Features = () => {
       <div className="container-custom relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-flex items-center px-4 py-2 mb-6 rounded-full bg-indigo-50 text-indigo-600 animate-fade-in">
-            <Zap className="h-4 w-4 mr-2" />
+            <Brain className="h-4 w-4 mr-2" />
             <span className="text-sm font-medium">Game-Changing Capabilities</span>
           </div>
           

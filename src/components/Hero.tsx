@@ -24,16 +24,13 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl text-muted-foreground mb-10 max-w-3xl animate-fade-in">
-            Our AI transforms enterprise noise into executive wisdom. Convert scattered data into prioritized actions that drive impact, alignment, and results—in minutes, not months.
+            Our AI transforms enterprise noise into executive wisdom. Convert scattered data into insights that drive impact, faster execution, and results.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mb-16 animate-fade-in">
             <Button size="lg" className="group">
               Transform Your Priorities
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Button>
-            <Button variant="outline" size="lg">
-              Watch the Magic
             </Button>
           </div>
 

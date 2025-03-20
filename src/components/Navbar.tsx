@@ -24,7 +24,7 @@ const Navbar = () => {
     >
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
-          <span className="text-xl font-bold text-primary">clearprism</span>
+          <span className="text-xl font-bold text-primary">iPersona</span>
         </div>
 
         {/* Desktop Menu */}
@@ -34,9 +34,6 @@ const Navbar = () => {
           </a>
           <a href="#results" className="text-foreground/80 hover:text-primary transition-colors">
             Results
-          </a>
-          <a href="#testimonials" className="text-foreground/80 hover:text-primary transition-colors">
-            Testimonials
           </a>
           <Button>Early Access</Button>
         </div>
@@ -68,13 +65,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Results
-            </a>
-            <a
-              href="#testimonials"
-              className="py-2 text-foreground/80 hover:text-primary transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Testimonials
             </a>
             <Button className="w-full" onClick={() => setIsMenuOpen(false)}>
               Early Access

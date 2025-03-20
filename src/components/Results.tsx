@@ -1,7 +1,6 @@
 
 import Card from "./Card";
 import { Clock, Zap, BarChart3, PieChart, Sparkles } from "lucide-react";
-import Button from "./Button";
 
 const Results = () => {
   const results = [
@@ -74,53 +73,9 @@ const Results = () => {
             </Card>
           ))}
         </div>
-
-        <div className="mt-20 max-w-6xl mx-auto overflow-hidden rounded-2xl animate-fade-in shadow-xl">
-          <div className="bg-gradient-to-br from-indigo-50 to-white p-12 flex flex-col md:flex-row items-center justify-between border border-white/50">
-            <div className="mb-10 md:mb-0 md:mr-12 md:max-w-md">
-              <h3 className="text-2xl font-semibold mb-4 text-balance">
-                See How AI Transforms Enterprise Decision-Making
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                Watch how our platform analyzes scattered enterprise data and transforms it into clear, 
-                actionable priorities that drive measurable business outcomes.
-              </p>
-              <Button className="group">
-                Watch Demo
-                <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-            </div>
-            
-            <div className="w-full md:w-1/2 relative">
-              <div className="absolute inset-0 bg-gradient-radial from-blue-50/50 to-transparent rounded-lg"></div>
-              <div className="relative shadow-lg rounded-lg overflow-hidden border border-white/50">
-                <div className="bg-slate-800 h-6 flex items-center px-3">
-                  <div className="flex space-x-1.5">
-                    <div className="w-2.5 h-2.5 rounded-full bg-red-400"></div>
-                    <div className="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
-                    <div className="w-2.5 h-2.5 rounded-full bg-green-400"></div>
-                  </div>
-                </div>
-                <div className="aspect-video bg-white p-4">
-                  <div className="h-full rounded bg-gradient-to-br from-indigo-50 to-blue-50 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/80 shadow-md mb-3">
-                        <Play className="h-8 w-8 text-indigo-500 ml-1" />
-                      </div>
-                      <p className="text-sm font-medium text-slate-600">See it in action</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
 };
-
-// Add missing imports
-import { ArrowRight, Play } from "lucide-react";
 
 export default Results;

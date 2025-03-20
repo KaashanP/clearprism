@@ -10,8 +10,7 @@ const ProblemSolution = () => {
             From Data Chaos to Clarity in Minutes
           </h2>
           <p className="text-lg text-muted-foreground animate-fade-in">
-            See how our platform transforms scattered information across your enterprise tools
-            into structured, actionable priorities.
+            See how our platform transforms scattered information from JIRA, slack channels, meeting transcripts and internal docs across your enterprise tools into structured, actionable insights.
           </p>
         </div>
 
