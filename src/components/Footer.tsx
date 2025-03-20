@@ -49,7 +49,7 @@ const Footer = () => {
         
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <span className="text-xl font-bold text-primary mr-2">clearprism</span>
+            <span className="text-xl font-bold text-primary mr-2">iPersona</span>
             <span className="text-sm text-muted-foreground">© {new Date().getFullYear()} All rights reserved.</span>
           </div>
           

@@ -5,25 +5,25 @@ import { Brain, Sparkles, Puzzle, FlaskConical } from "lucide-react";
 const Features = () => {
   const features = [
     {
-      title: "Neural Integration",
+      title: "Smart Data Connection",
       description:
         "Our AI listens to your enterprise's digital heartbeat, seamlessly unifying insights across all platforms into a single source of truth.",
       icon: <Brain className="h-10 w-10 text-indigo-500" />,
     },
     {
-      title: "Prismatic Clarity",
+      title: "Clear Priority Setting",
       description:
         "Transform information overload into crystal-clear priorities. Our AI cuts through noise to identify what truly moves your business forward.",
       icon: <Sparkles className="h-10 w-10 text-blue-500" />,
     },
     {
-      title: "Modular Customization",
+      title: "Flexible Configuration",
       description:
         "Shape your prioritization framework to match your unique business DNA. Tailor criteria that align perfectly with your strategic vision.",
       icon: <Puzzle className="h-10 w-10 text-purple-500" />,
     },
     {
-      title: "Catalyzed Execution",
+      title: "Faster Decision-Making",
       description:
         "Slash decision cycles from weeks to hours. Drive alignment and focused action with instantly shareable, crystal-clear priorities.",
       icon: <FlaskConical className="h-10 w-10 text-red-500" />,
