@@ -1,6 +1,6 @@
 
 import Card from "./Card";
-import { Brain, Prism, Puzzle, FlaskConical } from "lucide-react";
+import { Brain, PrismIcon, Puzzle, FlaskConical } from "lucide-react";
 
 const Features = () => {
   const features = [
@@ -14,7 +14,7 @@ const Features = () => {
       title: "Prismatic Clarity",
       description:
         "Transform information overload into crystal-clear priorities. Our AI cuts through noise to identify what truly moves your business forward.",
-      icon: <Prism className="h-10 w-10 text-blue-500" />,
+      icon: <PrismIcon className="h-10 w-10 text-blue-500" />,
     },
     {
       title: "Modular Customization",
