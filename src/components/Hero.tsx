@@ -20,7 +20,7 @@ const Hero = () => {
           </div>
 
           <h1 className="heading-xl mb-6 text-balance animate-fade-in">
-            Instantly Clarify Enterprise <span className="text-gradient">Noise</span> into Focused, <span className="text-gradient">Strategic Objectives</span> 
+            Instantly Clarify Enterprise <span className="text-gradient">Noise</span> into Strategic Objectives 
           </h1>
 
           <p className="text-xl text-muted-foreground mb-10 max-w-3xl animate-fade-in">
