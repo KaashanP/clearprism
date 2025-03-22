@@ -1,5 +1,5 @@
 
-import { ArrowRight, Sparkles } from "lucide-react";
+import { ArrowRight, Sparkles, CheckCircle } from "lucide-react";
 import Button from "./Button";
 
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
             {/* Step 1 */}
             <div className="glass-card p-6 flex flex-col items-center text-center">
               <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
-                <span className="text-blue-600 font-semibold">1</span>
+                <CheckCircle className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="font-medium mb-2">Gather Fragmented Data</h3>
               <p className="text-sm text-muted-foreground">From communication channels, meeting transcripts, and project tools</p>
@@ -39,7 +39,7 @@ const Hero = () => {
             {/* Step 2 */}
             <div className="glass-card p-6 flex flex-col items-center text-center">
               <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center mb-4">
-                <span className="text-indigo-600 font-semibold">2</span>
+                <CheckCircle className="h-6 w-6 text-indigo-600" />
               </div>
               <h3 className="font-medium mb-2">Interpret Context</h3>
               <p className="text-sm text-muted-foreground">Our AI accurately understands relationships and significance</p>
@@ -48,7 +48,7 @@ const Hero = () => {
             {/* Step 3 */}
             <div className="glass-card p-6 flex flex-col items-center text-center">
               <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
-                <span className="text-purple-600 font-semibold">3</span>
+                <CheckCircle className="h-6 w-6 text-purple-600" />
               </div>
               <h3 className="font-medium mb-2">Deliver Actionable Priorities</h3>
               <p className="text-sm text-muted-foreground">Drive faster decisions and measurable business impact</p>
