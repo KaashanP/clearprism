@@ -1,5 +1,5 @@
 
-import { ArrowRight, Sparkles, Database, Brain, Target } from "lucide-react";
+import { ArrowRight, Sparkles, CheckCircle } from "lucide-react";
 import Button from "./Button";
 
 const Hero = () => {
@@ -28,27 +28,27 @@ const Hero = () => {
           {/* Three-step process visualization */}
           <div className="grid md:grid-cols-3 gap-6 mb-10 w-full animate-fade-in">
             {/* Step 1 */}
-            <div className="glass-card p-6 flex flex-col items-center text-center hover:shadow-xl transition-all">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-blue-100 to-blue-200 flex items-center justify-center mb-4 shadow-md animate-pulse-subtle">
-                <Database className="h-8 w-8 text-blue-600" />
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+                <CheckCircle className="h-6 w-6 text-blue-600" />
               </div>
               <h3 className="font-medium mb-2">Gather Fragmented Data</h3>
               <p className="text-sm text-muted-foreground">From communication channels, meeting transcripts, and project tools</p>
             </div>
             
             {/* Step 2 */}
-            <div className="glass-card p-6 flex flex-col items-center text-center hover:shadow-xl transition-all">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-100 to-indigo-200 flex items-center justify-center mb-4 shadow-md animate-pulse-subtle">
-                <Brain className="h-8 w-8 text-indigo-600" />
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center mb-4">
+                <CheckCircle className="h-6 w-6 text-indigo-600" />
               </div>
               <h3 className="font-medium mb-2">Interpret Context</h3>
               <p className="text-sm text-muted-foreground">Our AI accurately understands relationships and significance</p>
             </div>
             
             {/* Step 3 */}
-            <div className="glass-card p-6 flex flex-col items-center text-center hover:shadow-xl transition-all">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center mb-4 shadow-md animate-pulse-subtle">
-                <Target className="h-8 w-8 text-purple-600" />
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                <CheckCircle className="h-6 w-6 text-purple-600" />
               </div>
               <h3 className="font-medium mb-2">Deliver Actionable Priorities</h3>
               <p className="text-sm text-muted-foreground">Drive faster decisions and measurable business impact</p>
