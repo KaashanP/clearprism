@@ -14,20 +14,49 @@ const Hero = () => {
 
       <div className="container-custom relative z-10">
         <div className="flex flex-col items-center max-w-5xl mx-auto text-center">
+          {/* Badge */}
           <div className="inline-flex items-center px-4 py-2 mb-8 rounded-full bg-primary/10 text-primary animate-fade-in shadow-sm border border-primary/20">
             <Sparkles className="h-4 w-4 mr-2" />
             <span className="text-sm font-medium">AI-Powered Enterprise Intelligence</span>
           </div>
 
-          <h1 className="heading-xl mb-6 text-balance animate-fade-in">
+          {/* Main headline */}
+          <h1 className="heading-xl mb-8 text-balance animate-fade-in">
             Instantly Clarify Enterprise <span className="text-gradient">Noise</span> into Strategic Objectives 
           </h1>
 
-          <p className="text-xl text-muted-foreground mb-10 max-w-3xl animate-fade-in">
-            Our fine-tuned AI gathers fragmented data from communication channels, meeting transcripts, and project tools, accurately interprets context, and delivers structured, actionable priorities to drive faster decisions and measurable impact.
-          </p>
+          {/* Three-step process visualization */}
+          <div className="grid md:grid-cols-3 gap-6 mb-10 w-full animate-fade-in">
+            {/* Step 1 */}
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+                <span className="text-blue-600 font-semibold">1</span>
+              </div>
+              <h3 className="font-medium mb-2">Gather Fragmented Data</h3>
+              <p className="text-sm text-muted-foreground">From communication channels, meeting transcripts, and project tools</p>
+            </div>
+            
+            {/* Step 2 */}
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center mb-4">
+                <span className="text-indigo-600 font-semibold">2</span>
+              </div>
+              <h3 className="font-medium mb-2">Interpret Context</h3>
+              <p className="text-sm text-muted-foreground">Our AI accurately understands relationships and significance</p>
+            </div>
+            
+            {/* Step 3 */}
+            <div className="glass-card p-6 flex flex-col items-center text-center">
+              <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                <span className="text-purple-600 font-semibold">3</span>
+              </div>
+              <h3 className="font-medium mb-2">Deliver Actionable Priorities</h3>
+              <p className="text-sm text-muted-foreground">Drive faster decisions and measurable business impact</p>
+            </div>
+          </div>
 
-          <div className="flex flex-col sm:flex-row items-center gap-4 mb-16 animate-fade-in">
+          {/* CTA button */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 animate-fade-in">
             <Button size="lg" className="group">
               Transform Your Priorities
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
