@@ -20,11 +20,11 @@ const Hero = () => {
           </div>
 
           <h1 className="heading-xl mb-6 text-balance animate-fade-in">
-            Crystallize Chaos into <span className="text-gradient">Strategic Clarity</span> 
+            Instantly Clarify Enterprise <span className="text-gradient">Noise</span> into Focused, <span className="text-gradient">Strategic Objectives</span> 
           </h1>
 
           <p className="text-xl text-muted-foreground mb-10 max-w-3xl animate-fade-in">
-            Our AI transforms enterprise noise into executive wisdom. Convert scattered data into insights that drive impact, faster execution, and results.
+            Our fine-tuned AI gathers fragmented data from communication channels, meeting transcripts, and project tools, accurately interprets context, and delivers structured, actionable priorities to drive faster decisions and measurable impact.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center gap-4 mb-16 animate-fade-in">

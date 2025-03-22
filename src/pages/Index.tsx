@@ -4,8 +4,6 @@ import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import ProblemSolution from '../components/ProblemSolution';
 import Features from '../components/Features';
-import Results from '../components/Results';
-import TeamSection from '../components/TeamSection';
 import CTA from '../components/CTA';
 import Footer from '../components/Footer';
 
@@ -22,8 +20,6 @@ const Index = () => {
         <Hero />
         <ProblemSolution />
         <Features />
-        <Results />
-        <TeamSection />
         <CTA />
       </main>
       <Footer />
